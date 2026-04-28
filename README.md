@@ -94,7 +94,7 @@ The model predicts fraud probability and classifies claims into:
 
 - Real-time fraud detection API
 - Integration with n8n workflow
-- Power BI dashboard automation
+- Tableau dashboard automation
 - Model tuning (XGBoost, LightGBM)
 
 ---
