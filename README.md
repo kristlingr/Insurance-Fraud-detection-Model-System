@@ -105,6 +105,14 @@ Final predictions are exported into CSV format for reporting and dashboard creat
 
 ---
 
+### 📊 Project Dashboards
+
+![Model Dashboard](dashboards/Model%20Dashboard.jpg)
+
+![Performance Dashboard](dashboards/Performance%20Dashboard.jpg)
+
+---
+
 # 🤖 Machine Learning Model
 
 The project uses a **Random Forest Classifier** for fraud detection.
