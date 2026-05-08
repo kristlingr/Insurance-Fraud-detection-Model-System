@@ -1,8 +1,8 @@
 # 🚨 Engineered Insurance Fraud Detection System
 
-This project is an end-to-end Machine Learning solution built to identify potentially fraudulent insurance claims using predictive analytics and risk-based scoring.
+## About Project
 
-Instead of relying only on manual investigations, the system helps insurance teams detect suspicious claims earlier and prioritize high-risk cases more efficiently.
+This project delivers an end-to-end insurance fraud detection system designed to support both predictive decision-making and operational workflow automation. At its core, the solution uses a balanced Random Forest model to identify potentially fraudulent claims with strong performance on imbalanced data, enabling more reliable fraud risk scoring across incoming cases. The trained model is exposed through a Flask API, making it production-ready for seamless integration with downstream applications and internal services. To streamline claim processing, the project incorporates n8n workflow automation for automated claim intake, routing, and orchestration across the pipeline. For visibility and monitoring, Tableau dashboards provide clear, interactive reporting on model outputs, fraud trends, and operational metrics, helping stakeholders track performance and investigate high-risk claims efficiently. Together, these components create a scalable, modular, and business-ready fraud detection system built for practical deployment in real-world insurance workflows.
 
 ---
 
@@ -17,6 +17,9 @@ The project covers the complete fraud detection workflow:
 * Fraud probability scoring
 * Risk classification
 * Dashboard-ready output generation
+* Flask API deployment for model serving and downstream integration
+* n8n workflow automation for claim intake and orchestration
+* Tableau dashboards for monitoring and operational reporting
 
 The model predicts the likelihood of fraud and classifies claims into:
 
@@ -47,6 +50,9 @@ The goal of this project is to:
 * Plotly
 * Scikit-learn
 * Graphviz
+* Flask
+* n8n
+* Tableau
 
 ---
 
@@ -103,6 +109,13 @@ Claims are categorized into:
 
 Final predictions are exported into CSV format for reporting and dashboard creation.
 
+### ✔ Production Components
+
+* Balanced Random Forest model for fraud detection and risk scoring
+* Flask API for model serving and downstream application integration
+* n8n workflow automation for claim intake, routing, and orchestration
+* Tableau dashboards for monitoring claim performance and fraud trends
+
 ---
 
 ### 📊 Project Dashboards
@@ -115,7 +128,7 @@ Final predictions are exported into CSV format for reporting and dashboard creat
 
 # 🤖 Machine Learning Model
 
-The project uses a **Random Forest Classifier** for fraud detection.
+The project uses a **balanced Random Forest Classifier** for fraud detection.
 
 Key configurations:
 
@@ -189,8 +202,6 @@ The project includes:
 
 # 🚀 Future Improvements
 
-* Real-time fraud scoring API
-* n8n workflow automation
 * Power BI dashboard integration
 * Cloud deployment
 * Advanced ML models (XGBoost / LightGBM)
